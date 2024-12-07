@@ -1,18 +1,33 @@
 {
-    "include": ["react/features/**/*.ts", "react/features/**/*.tsx", "./custom.d.ts", "./globals.native.d.ts"],
+    "include": [
+        "react/features/**/*.ts",
+        "react/features/**/*.tsx",
+        "react/firebase.tsx",
+        "./custom.d.ts",
+        "./globals.native.d.ts"
+    ],
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "target": "es2020",
         "jsx": "react-native",
-        "lib": [ "es2020"],
-        "types": [ "react-native" ],
+        "lib": [
+            "es2020"
+        ],
+        "types": [
+            "react-native"
+        ],
         "skipLibCheck": true,
         "moduleResolution": "Node",
         "strict": true,
         "noImplicitAny": true,
         "strictPropertyInitialization": false,
         "resolveJsonModule": true,
-        "moduleSuffixes": [".native", ".ios", ".android", ""]
+        "moduleSuffixes": [
+            ".native",
+            ".ios",
+            ".android",
+            ""
+        ]
     },
     "exclude": [
         "node_modules",

@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.web.json",
+    "compilerOptions": {
+      // Add or override any specific options if needed
+    },
+    "include": [
+      "react/firebase.tsx"
+    ]
+  }
